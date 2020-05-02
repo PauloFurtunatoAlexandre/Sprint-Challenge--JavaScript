@@ -29,14 +29,22 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+forEach is used to loop through an array items. Map is used to loop in an array and your can create a new array using it.
 
 2. What is the difference between a function and a method?
+Function is a set of defined instructions that can be reused. Method is more like a function that is part of an object in the OOP approach.
 
 3. What is closure?
+It is a function that has a function as a return.
 
 4. Describe the four rules of the 'this' keyword.
+- Window/Global Binding - when it points to the global window object.
+- Implicit Biding - When it returns a property/method of the object for example.
+- Explicit Biding - When you can point the this using apply/call/bind
+- New keyword - when the this keyword is pointing to the new instance of an object.
 
 5. Why do we need super() in an extended class?
+To extend its properties from parent class.
 
 ## Project Set up
 
